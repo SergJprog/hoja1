@@ -1,9 +1,19 @@
-# hoja1
-Hoja de trabajo número 1
+# hoja2
+Hoja de trabajo número 2
 Este pequeño proyecto contiene algunos de los lugares turisticos de Quetzaltenago
 
+Las mejoras incluidas dentro de este proyecto son las siguientes:
+
+ 1. Se agregó una hoja de estilos CSS la cual se vinculó al index para que los estilos se reflejaran.
+ 2. Se procedió a mejorar la estructura HTML en la que también se utilizaron algunas clases para poder utilizarlas en la hoja de estilos.
+ 3. Dentro de la hoja de estilos CSS se utilizaron variables como una buena práctica para el mantenimiento de los colores.
+ 4. En la hoja de estilos CSS se utilizaron algunos efectos, utilizando la pseudoclase HOVER en las etiquetas <a></a> y en las tarjetas. En estas también se utilizaron las animaciones TRANSFORM dentro del efecto hover para que diera la apariencia de crecer o decrecer, y TRANSITION para hacer ese efecto más suave a la vista.
+ 5. Se agregó una imagen como encabezado.
+
+
+
 El enlace del sitio web publicado:
-https://hoja1-turismo.netlify.app
+https://hoja2-turismo.netlify.app
 
 creditos a: 
-Sergio Alexander Robles García 9490-10-299
+Sergio Alexander Robles García 9490-10-399

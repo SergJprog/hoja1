@@ -26,13 +26,15 @@ body {
 
 header {
     background-color: var(--header-bg-color);
-    color: white;
-    padding: 20px;
+  /*  color: white;
+    padding: 20px;*/
     text-align: center;
 }
 
-header h1 {
+header img{
     margin: 0;
+    width: 100%;
+    height:650px;
 }
 
 main {
