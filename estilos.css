@@ -1,11 +1,12 @@
+/*Uso de varibles en los colores para un mantenimiento mas eficiente*/
 :root {
-    --main-bg-color: #f0f8ff;
+    --main-bg-color: #EBF4F6;
     --main-color: #333;
-    --header-bg-color: #4682b4;
-    --link-bg-color: #4682b4;
-    --link-hover-bg-color: #5a9bd5;
+    --header-bg-color: #134B70;
+    --link-bg-color: #088395;
+    --link-hover-bg-color: #37B7C3;
     --card-bg-color: #fff;
-    --card-hover-bg-color: beige;
+    --card-hover-bg-color: #FFF8DB;
     --border-color: #ddd;
     --table-header-bg-color: #f2f2f2;
 }
@@ -38,12 +39,12 @@ main {
     padding: 20px;
 }
 
-section {
-    margin-bottom: 20px;
+.descripcion{
+    text-align: justify;
 }
 
-section p, section h2, section h3 {
-    margin: 10px 0;
+.container-botones{
+    text-align: center;
 }
 
 a {
@@ -59,6 +60,7 @@ a {
 
 a:hover {
     background-color: var(--link-hover-bg-color);
+    transform: scale(0.9);
 }
 
 .card-container {
@@ -75,18 +77,22 @@ a:hover {
     overflow: hidden;
     vertical-align: top;
     text-align: justify;
-    transition: 1s all;
+    transition: 1s all;/*realiza una transición mas suave cuando pasamos el mouse por las trajetas*/
 }
 
 .card:hover {
     background-color: var(--card-hover-bg-color);
-    transform: scale(1.1);
+    transform: scale(1.1); /*hace crecer las tarjetas en su eje X y Y un tamaño uniforme*/
 }
 
 .card img {
     width: 100%;
     height: auto;
     border-bottom: 1px solid var(--border-color);
+}
+
+.card-container h2{
+    margin:50px 0;
 }
 
 .card-content {
