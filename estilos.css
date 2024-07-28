@@ -3,6 +3,7 @@
     --main-bg-color: #EBF4F6;
     --main-color: #333;
     --header-bg-color: #134B70;
+    --descripcion:#E2E2B6;
     --link-bg-color: #088395;
     --link-hover-bg-color: #37B7C3;
     --card-bg-color: #fff;
@@ -45,8 +46,19 @@ main {
     text-align: justify;
 }
 
+.descripcion-parrafo {
+    color: var(--main-color);
+    background-color: var(--descripcion);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3)
+  }
+  
 .container-botones{
     text-align: center;
+    margin-top: 80px;
 }
 
 a {
