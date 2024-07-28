@@ -9,6 +9,8 @@ Las mejoras incluidas dentro de este proyecto son las siguientes:
  3. Dentro de la hoja de estilos CSS se utilizaron variables como una buena práctica para el mantenimiento de los colores.
  4. En la hoja de estilos CSS se utilizaron algunos efectos, utilizando la pseudoclase HOVER en las etiquetas <a></a> y en las tarjetas. En estas también se utilizaron las animaciones TRANSFORM dentro del efecto hover para que diera la apariencia de crecer o decrecer, y TRANSITION para hacer ese efecto más suave a la vista.
  5. Se agregó una imagen como encabezado.
+ 6. Se utilizó una gama de colores para resaltar un estilo colonial.
+ 7. Se importó dentro de CSS una fuente google font.
 
 
 
