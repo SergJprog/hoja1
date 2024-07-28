@@ -53,10 +53,10 @@ main {
     padding: 10px;
     border-radius: 5px;
     font-family:'Imperial Script';
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     /*font-style: italic;*/
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    /*text-shadow: 2px 2px 5px rgba(0,0,0,0.3);*/
 }
 
 .container-botones {
