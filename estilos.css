@@ -149,7 +149,7 @@ table thead {
 }
 
 .actividades {
-    margin-top: 20px;
+    margin: 30px 0;
 }
 
 .actividades h3 {
@@ -163,16 +163,17 @@ table thead {
 }
 
 .actividades ul li {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 footer {
-   
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: var(--header-bg-color);
-    font-family:'Imperial Script';
-    font-size: 30px;
     color: white;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
 }
+
