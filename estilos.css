@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    background-color: var(--header-bg-color);
+    background-color: var(--link-bg-color);
     text-align: center;
 }
 
@@ -54,7 +54,9 @@ main {
     border-radius: 5px;
     font-weight: bold;
     font-style: italic;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    /*text-shadow: 2px 2px 5px rgba(0,0,0,0.3);*/
+    line-height: 2.0;
+    padding: 20px 40px;
 }
 
 .container-botones {
@@ -101,6 +103,13 @@ main {
     overflow: hidden;
 }
 
+.card a{
+    text-decoration: none;
+}
+
+.card a:visited{
+    color: inherit;
+}
 .card img {
     width: 100%;
     height: auto;
@@ -149,7 +158,7 @@ table thead {
 }
 
 .actividades {
-    margin: 30px 0;
+    margin: 70px 0;
 }
 
 .actividades h3 {
@@ -170,7 +179,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: var(--header-bg-color);
+    background-color: var(--link-bg-color);
     color: white;
     text-align: center;
     padding: 10px 0;
