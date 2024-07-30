@@ -105,11 +105,10 @@ main {
 
 .card a{
     text-decoration: none;
-}
-
-.card a:visited{
     color: inherit;
 }
+
+
 .card img {
     width: 100%;
     height: auto;
@@ -128,6 +127,7 @@ main {
     font-size: 1em;
     margin: 0;
     text-align: justify;
+    line-height: 1.5;
 }
 
 .card:hover {
