@@ -15,6 +15,9 @@ Las mejoras incluidas dentro de este proyecto son las siguientes:
  8. cada una de las tarjetas contiene un link a una sección de la página. 
 
 
+ Nota: El usuario LeoMoralesGon de git es el usuario que mi PC de casa tiene configurado actualmente por lo que los cambios y actualizaciones aparencen con ese nombre.
+
+
 
 El enlace del sitio web publicado:
 https://hoja2-turismo.netlify.app
