@@ -12,7 +12,7 @@ Las mejoras incluidas dentro de este proyecto son las siguientes:
  5. Se agregó una imagen como encabezado.
  6. Se utilizó una gama de colores para resaltar un estilo colonial.
  7. Se importó dentro de CSS dos fuentes google font.
- 8. cada una de las tarjetas contiene un link a una sección de la página.
+ 8. cada una de las tarjetas contiene un link a una sección de la página. 
 
 
 
