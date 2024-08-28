@@ -90,6 +90,12 @@ header img {
     background-color: var(--card-hover-bg-color);
 }
 
+.comment-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
 
 
 
